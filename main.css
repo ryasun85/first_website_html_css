@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+    background-image: url("beauty.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding:25px 120px 120px 120px; 
+    text-align: center; 
+
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 45px;
+    /* make bigger*/
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline;
+    background-color: rgba(68, 194, 78, 0.4);
+    border-radius: 6px;
+    display:inline-block;
+    padding: 3px 5px 5px 5px;
+    
+}
+
+h3 {
+    font-size: 24px; 
+    text-align: center;
+    /* font-weight: bold; */
+    background-color: rgba(151, 226, 226, 0.6);
+    display:inline-block;
+    border-radius: 6px;
+    font-family: 'Oswald', sans-serif;
+    /* padding: 5px; */
+    padding: 3px 5px 5px 5px;
+    /* add font*/
+}
+
+.aboutme {
+    font-style: 'Bebas Neue', cursive;
+    color: rgb(39, 28, 28);
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline;
+    font-size: 28px;
+    padding: 5px;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    background-color: rgba(238, 211, 187, 0.6);
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.resizeimg {
+    width: 60px; 
+    height: 60px;   
+    
+}
+
+/* menu jump links*/
+
+.menubuttons {
+    /* background-color: rgba(68, 194, 78, 0.4); */
+    background-color: rgba(53, 153, 184, 0.6);
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    margin-top: -25px;
+    font-family: 'Oswald', sans-serif;
+    color:rgb(4, 41, 56);
+}
+
+/*  js dynamic button */
+/* #back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+} */
